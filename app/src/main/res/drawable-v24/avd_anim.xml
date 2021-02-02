@@ -1,0 +1,35 @@
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <aapt:attr name="android:drawable">
+        <vector
+            android:name="vector"
+            android:width="400dp"
+            android:height="430dp"
+            android:viewportWidth="400"
+            android:viewportHeight="430">
+            <group android:name="group"/>
+            <path
+                android:name="atbgpcuwl"
+                android:pathData="M 87.5 73.91 L 312.5 73.91 L 268.75 364.31 L 131.25 362.81 L 87.5 73.91 Z"
+                android:fillColor="#dddddd"
+                android:strokeWidth="1"/>
+            <path
+                android:name="ftybhker8"
+                android:pathData="M 131.25 356.09 L 268.75 356.09 L 268.75 364.31 L 131.25 362.81 L 131.25 356.09 Z"
+                android:fillColor="#2389da"
+                android:strokeWidth="1"/>
+        </vector>
+    </aapt:attr>
+    <target android:name="ftybhker8">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:propertyName="pathData"
+                android:duration="400"
+                android:valueFrom="M 131.25 356.09 L 268.75 356.09 L 268.75 364.31 L 131.25 362.81 L 131.25 356.09 Z"
+                android:valueTo="M 92.5 100.78 L 307.5 100.78 L 268.75 364.31 L 131.25 362.81 L 92.5 100.78 Z"
+                android:valueType="pathType"
+                android:interpolator="@android:interpolator/fast_out_slow_in"/>
+        </aapt:attr>
+    </target>
+</animated-vector>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Pro Padometer</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="Banner_id">552028735341508_552029458674769</string>
+    <string name="Inter_id">552028735341508_552078552003193</string>
+    <string name="Link">ihduguged</string>
+    <string name="privacy">ihefegf</string>
+
+
+    <string-array name="Range">
+        <item>Week</item>
+        <item>Month</item>
+        <item>Year</item>
+    </string-array>
+</resources>

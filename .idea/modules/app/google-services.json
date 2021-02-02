@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "907061539873",
+    "firebase_url": "https://padometer-bb54d.firebaseio.com",
+    "project_id": "padometer-bb54d",
+    "storage_bucket": "padometer-bb54d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:907061539873:android:07d203d2bd26864c2fdf60",
+        "android_client_info": {
+          "package_name": "com.blossoming.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "907061539873-tvm8nnf85rr4sm42sofjedv8gg9hr2ta.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.blossoming.myapplication",
+            "certificate_hash": "692e36e4e99e9927ea1836f3a18bf90a825d7fdb"
+          }
+        },
+        {
+          "client_id": "907061539873-4hebklc756vsesbavdmicp5r5vnsrbsi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgTX2AMsTyZcdqBvUJQXW40Btokg-1Ets"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "907061539873-4hebklc756vsesbavdmicp5r5vnsrbsi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:907061539873:android:ce278db9a982d80d2fdf60",
+        "android_client_info": {
+          "package_name": "com.blossoming.propadometer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "907061539873-6i572qp7dm6p3h3b8dhlumi0qim3d40f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.blossoming.propadometer",
+            "certificate_hash": "692e36e4e99e9927ea1836f3a18bf90a825d7fdb"
+          }
+        },
+        {
+          "client_id": "907061539873-4hebklc756vsesbavdmicp5r5vnsrbsi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgTX2AMsTyZcdqBvUJQXW40Btokg-1Ets"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "907061539873-4hebklc756vsesbavdmicp5r5vnsrbsi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_thirdback">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="15dp"
+            android:weightSum="1"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:shadowColor="#000"
+                android:shadowDy="25"
+                android:layout_weight="1"
+                android:text="Info"
+                android:textColor="#ffffff"
+                android:textSize="25dp" />
+        </LinearLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="9dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="How Step Counts ?"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:text="     This Application Counts the Steps using Accelerometer of SmartPhone. Steps Count's when user does motion along with phone i.e user walks. The Steps Count starts Only when ( START ) Button is Pressed. The Steps Counts Get Added to History of your Steps Only When you Press ( STOP ) Button. On Pressing ( PAUSE ) Button the steps counts gets Pause where it was and ( RESUME) Button Appears. On Pressing ( Resume ) Button User can continue where it Stoped. No Personal Data is being Used. "/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Glass of Water"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:text="     In Today,s Water Section you can Add a glass of catter as you Drink One by Clicking on ( ADD ) Button. Also if you press Add By mistake you can decreass the Count by clicking on ( Minus ) Button. And to view your History of Water Intake by you Can Be Seen by clicking on ( View History ) Section and You will be redirected to your Water Intake History Graph View."/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="How to Use Graph ?"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:text="     For Steps Graph you will see BarGraph and for Water Intake You will see Curve LineChart. In Both Graph You cant si your History By Last one Week, Last One Month or By Last One Year By Just selecting On ScrollBar on Top-Right."/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="How BMI works ?"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:text="     BMI ( Body Mass Index ) is used to get your Fitness Average. To Get You BMI in App you need give Input Value to the Weight and Height just above BMI Indicator. and Your BMI will be Displayed by Aroww and a value."/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
